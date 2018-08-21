@@ -3,6 +3,19 @@ This is the [Linklight Github project](https://github.com/network-automation/lin
 
 ![linklight](images/linklight.png)
 
+# Server Automation
+These workshops are focused on automating Linux platforms like RHEL (Red Hat Enterprise Linux)
+
+## Ansible Server Decks
+
+- [Ansible Essentials - Deck](decks/ansible-essentials.html)
+- [Intro to Ansible Tower - Deck](decks/intro-to-ansible-tower.html)
+
+## Ansible Server Workshops
+
+- [Ansible Engine Workshop](exercises/ansible_engine/README.md)  
+- [Ansible Tower Workshop](exercises/ansible_tower/README.md)  
+
 # Network Automation
 These workshops are focused on networking platforms like Arista, Cisco, Juniper and F5.
 
@@ -18,18 +31,6 @@ These workshops are focused on networking platforms like Arista, Cisco, Juniper 
 - [Ansible Networking_v2 Workshop](exercises/networking_v2/README.md)  
 - [Ansible F5 Workshop](exercises/ansible_f5/README.md)  
 
-# Server Automation
-These workshops are focused on automating Linux platforms like RHEL (Red Hat Enterprise Linux)
-
-## Ansible Server Decks
-
-- [Ansible Essentials - Deck](decks/ansible-essentials.html)
-- [Intro to Ansible Tower - Deck](decks/intro-to-ansible-tower.html)
-
-## Ansible Server Workshops
-
-- [Ansible Engine Workshop](exercises/ansible_engine/README.md)  
-- [Ansible Tower Workshop](exercises/ansible_tower/README.md)  
 
 # Slack
 Do you like Slack?  So do we! [click to join our ansiblenetwork slack](https://join.slack.com/t/ansiblenetwork/shared_invite/enQtMzEyMTcxMTE5NjM3LWIyMmQ4YzNhYTA4MjA2OTRhZDQzMTZkNWZlN2E3NzhhMWQ5ZTdmNmViNjk2M2JkYzJjODhjMjVjMGUxZjc2MWE)
