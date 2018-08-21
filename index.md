@@ -38,9 +38,16 @@ Do you like Slack?  So do we! [click to join our ansiblenetwork slack](https://j
 # Mailing List
 Join our [mailing list](https://www.redhat.com/mailman/listinfo/linklight)
 
-<br><br><br><br>
+<br><br><br>
 
  ---
 ![Red Hat Ansible Automation](images/rh-ansible-automation.png)
 
-Red Hat® Ansible® Network Automation provides support for select networking modules from Arista (EOS), Cisco (IOS, IOS XR, NX-OS), Juniper (Junos OS), Open vSwitch, and VyOS.
+
+Red Hat® Ansible® Automation consists of three products:
+
+- [Red Hat® Ansible® Tower](https://www.ansible.com/tower): Built for operationalizing and scaling automation, managing complex deployments and speeding up productivity. Extend the power of Ansible Tower with Workflows and Surveys to streamline jobs and simple tools to share solutions with your team.
+
+- [Red Hat® Ansible® Engine](https://www.ansible.com/ansible-engine): a fully supported product built on the foundational capabilities of the Ansible project. Also provides support for select modules including Infoblox.
+
+- [Red Hat® Ansible® Network Automation](https://www.ansible.com/networking): provides support for select networking modules from Arista (EOS), Cisco (IOS, IOS XR, NX-OS), Juniper (JunOS), Open vSwitch, and VyOS. Includes Ansible Tower, Ansible Engine, and curated content specifically for network use cases.
