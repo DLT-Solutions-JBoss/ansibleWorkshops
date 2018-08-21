@@ -1,4 +1,4 @@
-Presented by ![DLT](images/DLT-Logo-Transparent-Background.png)
+Presented by ![DLT](images/DLT-Logo-Transparent_Small.png)
 
 # Ansible Automation Workshops
 This is the [Linklight Github project](https://github.com/network-automation/linklight) for Ansible Automation Workshops.
