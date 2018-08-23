@@ -20,6 +20,10 @@ node3 ansible_host=<Z.Z.Z.Z>
 [control]
 ansible ansible_host=44.55.66.77
 ```
+**NOTE**: Above is only an example inventory.  This lab uses an instructor installed file referenced in your .ansible.cfg file as:
+```bash
+inventory = ~student01/lightbulb/lessons/lab_inventory/student01-instances.txt 
+```
 
 ## Step 1.2 - Ping a host
 
