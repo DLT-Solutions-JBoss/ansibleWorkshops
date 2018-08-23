@@ -10,7 +10,7 @@ For our first playbook, we are only going to write one play and two tasks.
 
 ## Section 1: Creating a Directory Structure and Files for your Playbook
 
-There is a [best practicea](http://docs.ansible.com/ansible/playbooks_best_practices.html) on the preferred directory structures for playbooks.  We strongly encourage you to read and understand these practices as you develop your Ansible ninja skills.  That said, our playbook today is very basic and creating a complex structure will just confuse things.
+There are [best practices](http://docs.ansible.com/ansible/playbooks_best_practices.html) on the preferred directory structures for playbooks.  We strongly encourage you to read and understand these practices as you develop your Ansible ninja skills.  That said, our playbook today is very basic and creating a complex structure will just confuse things.
 
 Instead, we are going to create a very simple directory structure for our playbook, and add just a couple of files to it.
 
@@ -50,15 +50,15 @@ Now that we've defined your play, let's add some tasks to get some things done. 
 
 ```yml
 tasks:
- - name: install apache
-   yum:
-     name: httpd
-     state: present
+  - name: install apache
+    yum:
+      name: httpd
+      state: present
 
- - name: start httpd
-   service:
-     name: httpd
-     state: started
+  - name: start httpd
+    service:
+      name: httpd
+      state: started
 ```
 
 - `tasks:` This denotes that one or more tasks are about to be defined
