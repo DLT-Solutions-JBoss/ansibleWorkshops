@@ -23,10 +23,8 @@ For a full understanding of variables, loops, and handlers; check out our Ansibl
 
 ## Section 1: Running the Playbook
 
-To begin, we are going to create a new playbook, but it should look very familiar to the one you created in exercise 1.2
+To begin, we are going to create a new playbook, but it should look very familiar to the one you created in exercise 2.
 
-
-We are now going to run you're brand spankin' new playbook on your two web nodes.  To do this, you are going to use the `ansible-playbook` command.
 
 ### Step 1:
 
@@ -65,7 +63,7 @@ Add a new task called *install httpd packages*.
 ```yml
 {% raw %}
   tasks:
-    - name: install httpd packages
+    - name: httpd packages are present
       yum:
         name: "{{ item }}"
         state: present
@@ -103,31 +101,31 @@ Create a `templates` directory in your project directory and download two files.
 ```bash
 mkdir templates
 cd templates
-curl -O http://ansible-workshop.redhatgov.io/workshop-files/httpd.conf.j2
-curl -O http://ansible-workshop.redhatgov.io/workshop-files/index.html.j2
+curl -O http://ansible-workshop.redhatgov.io/workshop-files/httpd.conf.j2 > httpd.conf.j2
+curl -O http://ansible-workshop.redhatgov.io/workshop-files/index.html.j2 > index.html.j2
 ```
 
 ### Step 2:
 Add some file tasks and a service task to your playbook.
 
 ```yml
-- name: create site-enabled directory
+- name: site-enabled directory is present
   file:
     name: /etc/httpd/conf/sites-enabled
     state: directory
 
-- name: copy httpd.conf
+- name: latest httpd.conf is present
   template:
     src: templates/httpd.conf.j2
     dest: /etc/httpd/conf/httpd.conf
   notify: restart apache service
 
-- name: copy index.html
+- name: latest index.html is present
   template:
     src: templates/index.html.j2
     dest: /var/www/html/index.html
 
-- name: start httpd
+- name: httpd is started and enabled
   service:
     name: httpd
     state: started
@@ -169,7 +167,7 @@ handlers:
 
 > You can't have a former if you don't mention the latter
 
-- `handler:` This is telling the *play* that the `tasks:` are over, and now we are defining `handlers:`.
+- `handlers:` This is telling the *play* that the `tasks:` are over, and now we are defining `handlers:`.
   Everything below that looks the same as any other task, i.e. you give it a name, a module, and the options for that
   module.  This is the definition of a handler.
 - `notify: restart apache service` ...and here is your latter. Finally!  The `nofify` statement is the invocation of a handler by
