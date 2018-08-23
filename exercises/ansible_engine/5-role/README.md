@@ -2,7 +2,7 @@
 
 While it is possible to write a playbook in one file as we've done throughout this workshop, eventually you’ll want to reuse files and start to organize things.
 
-Ansible Roles is the way we do this.  When you create a role, you deconstruct your playbook into parts and those parts sit in a directory structure.  "Wha??  You mean that seemingly useless [best practice](http://docs.ansible.com/ansible/playbooks_best_practices.html) you mentioned in exercise 1.2?".  Yep, that one.
+Ansible Roles is the way we do this.  When you create a role, you deconstruct your playbook into parts and those parts sit in a directory structure.  "Wha??  You mean that seemingly useless [best practices](http://docs.ansible.com/ansible/playbooks_best_practices.html) you mentioned in exercise 2.1?".  Yep, that one.
 
 For this exercise, you are going to take the playbook you just wrote and refactor it into a role.  In addition, you'll learn to use Ansible Galaxy.
 
@@ -101,7 +101,6 @@ apache_max_keep_alive_requests: 115
 
 Add some role-specific variables to your role in `roles/apache-simple/vars/main.yml`.
 
-[source,bash]
 ```
 ---
 # vars file for apache-simple
@@ -112,7 +111,7 @@ httpd_packages:
 
 ---
 **NOTE**
-####
+
 > Hey, wait just a minute there buster... did you just have us put variables in two seperate places?
 
 Yes... yes we did.  Variables can live in quite a few places.  Just to name a few: +
@@ -194,6 +193,9 @@ curl -O http://ansible-workshop.redhatgov.io/workshop-files/index.html.j2
 rm -rf ~/apache-basic-playbook/templates/
 ```
 
+**NOTE**
+Again, that curl option is the letter O, and not the number 0.
+
 ## Section 3: Running your new role-based playbook
 
 Now that you've successfully separated your original playbook into a role,
@@ -204,7 +206,8 @@ let's run it and see how it works.
 Run the playbook.
 
 ```bash
-ansible-playbook -i ../hosts site.yml
+cd ~/apache-basic-playbook
+ansible-playbook site.yml
 ```
 
 If successful, your standard output should look similar to the figure below.
