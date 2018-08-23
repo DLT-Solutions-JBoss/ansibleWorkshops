@@ -20,11 +20,6 @@ Download the latest Ansible Tower package
 ```bash
 curl -O https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
 ```
-or
-
-```bash
-wget https://bit.ly/ansibletower
-```
 
 ### Step 3:
 
