@@ -15,10 +15,10 @@ cd /tmp
 
 ### Step 2:
 
-Download the Ansible Tower v2.4.5 package
+Download the Ansible Tower v3.2.7 package
 
 ```bash
-curl -O https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-2.4.5.tar.gz
+curl -O https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-3.2.7.tar.gz
 ```
 
 ### Step 3:
@@ -26,7 +26,7 @@ curl -O https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-2.4
 Untar and unzip the package file
 
 ```bash
-tar xvfz /tmp/ansible-tower-setup-2.4.5.tar.gz
+tar xvfz /tmp/ansible-tower-setup-3.2.7.tar.gz
 ```
 
 ### Step 4:
