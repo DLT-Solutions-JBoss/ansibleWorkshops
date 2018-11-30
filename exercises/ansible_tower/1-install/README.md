@@ -15,18 +15,20 @@ cd /tmp
 
 ### Step 2:
 
-Download the Ansible Tower v3.2.7 package
+Download the Ansible Tower v3.3.1 package
 
 ```bash
-curl -O https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-3.2.7.tar.gz
+curl -O https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-3.3.1-1.tar.gz
 ```
+**NOTE**
+That curl option is the letter O, and not the number 0.
 
 ### Step 3:
 
 Untar and unzip the package file
 
 ```bash
-tar xvfz /tmp/ansible-tower-setup-3.2.7.tar.gz
+tar xvfz /tmp/ansible-tower-setup-3.3.1-1.tar.gz
 ```
 
 ### Step 4:
@@ -65,14 +67,13 @@ pg_database='awx'
 pg_username='awx'
 pg_password='ansibleWS'
 
-rabbitmq_port=5672
-rabbitmq_vhost=tower
 rabbitmq_username=tower
 rabbitmq_password='ansibleWS'
 rabbitmq_cookie=cookiemonster
 
-= Needs to be true for fqdns and ip addresses
-rabbitmq_use_long_name=false
+# Isolated Tower nodes automatically generate an RSA key for authentication;
+# To disable this behavior, set this value to false
+# isoldated_key_generation=true
 
 ```
 
