@@ -49,6 +49,8 @@ showing you the status of the job.
 
 Select TEMPLATES
 
+![Template Sidebar](temp_sidebar.png)
+
 ---
 **NOTE**
 Alternatively, if you haven't navigated away from the job templates creation page, you can scroll down to see all existing job templates
