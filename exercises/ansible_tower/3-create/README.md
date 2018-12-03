@@ -9,6 +9,8 @@ A job template is a definition and set of parameters for running an Ansible job.
 
 Select TEMPLATES
 
+![Add Template](temp_sidebar.png)
+
 ### Step 2:
 
 Click on ADD ![Add button](at_add.png), and select JOB TEMPLATE
