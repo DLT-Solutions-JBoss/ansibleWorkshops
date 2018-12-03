@@ -29,39 +29,14 @@ PLAYBOOK|examples/apache-basic-playbook/site.yml
 MACHINE CREDENTIAL|Ansible Workshop Credential
 LIMIT|web
 OPTIONS|- [x] Enable Privilege Escalation
+EXTRA VARIABLES| apache_test_message: <Be creative, keep it clean, we're all professionals here>
 
 ![Job Template Form](at_jt_detail.png)
 
 ### Step 4:
 
-Click SAVE ![Save button](at_save.png) and then select ADD SURVEY ![Add](at_addsurvey.png)
+Click SAVE ![Save button](at_save.png) 
 
-### Step 5:
-
-Complete the survey form with following values
-
-PROMPT|Please enter a test message for your new website
-------|------------------------------------------------
-DESCRIPTION|Website test message prompt
-ANSWER VARIABLE NAME|apache_test_message
-ANSWER TYPE|Text
-MINIMUM/MAXIMUM LENGTH| Use the defaults
-DEFAULT ANSWER| Be creative, keep it clean, we're all professionals here
-
-![Survey Form](at_survey_detail.png)
-
-
-### Step 6:
-
-Select ADD ![Add button](at_add.png)
-
-### Step 7:
-
-Select SAVE ![Add button](at_save.png)
-
-### Step 8:
-
-Back on the main Job Template page, select SAVE ![Add button](at_save.png) again.
 
 ## Running a Job Template
 
