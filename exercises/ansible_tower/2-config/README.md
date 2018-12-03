@@ -48,17 +48,15 @@ There are many [types of credentials](http://docs.ansible.com/ansible-tower/late
 
 ### Step 1:
 
-Select the gear icon ![Gear button](at_gear.png)
+Select CREDENTIALS 
+
+![Credential Sidebar](cred_sidebar.png)
 
 ### Step 2:
 
-Select CREDENTIALS
-
-### Step 3:
-
 Click on ADD ![Add button](at_add.png)
 
-### Step 4:
+### Step 3:
 
 Complete the credential form using the following entries:
 
@@ -74,7 +72,7 @@ PRIVILEGE ESCALATION|Sudo (This is the default)
 
 ![Adding a Credential](at_cred_detail.png)
 
-### Step 5:
+### Step 4:
 
 Select SAVE ![Save button](at_save.png)
 
@@ -85,6 +83,8 @@ A Project is a logical collection of Ansible playbooks, represented in Tower. Yo
 ### Step 1:
 
 Click on PROJECTS
+
+![Add Project](proj_sidebar.png)
 
 ### Step 2:
 
@@ -122,6 +122,8 @@ An Inventory can also be imported into Tower using the `tower-manage` command an
 ### Step 1:
 
 Click on INVENTORIES
+
+![Adding Inventory](inv_sidebar.png)
 
 ### Step 2:
 
