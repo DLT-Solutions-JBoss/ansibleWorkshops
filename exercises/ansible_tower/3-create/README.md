@@ -61,16 +61,6 @@ Click on the rocketship icon ![Launch button](at_launch_icon.png) for the *Apach
 
 ### Step 3:
 
-When prompted, enter your desired test message
-
-![Survey Prompt](at_survey_prompt.png)
-
-### Step 4:
-
-Select LAUNCH ![Survey launch button](at_survey_launch.png)
-
-### Step 5:
-
 Sit back, watch the magic happen!
 
 One of the first things you will notice is the summary section.  This gives you details about your job such as who launched it, what playbook it's running, what the status is, i.e. pending, running, or complete.
@@ -85,7 +75,7 @@ To the right, you can view standard output; the same way you could if you were r
 
 ![Job Standard Output](at_job_stdout.png)
 
-### Step 6:
+### Step 4:
 
 Once your job is sucessful, navigate to your new website
 
