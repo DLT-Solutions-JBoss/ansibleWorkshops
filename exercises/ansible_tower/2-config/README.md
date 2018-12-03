@@ -155,7 +155,7 @@ You should see output similar to the following:
 
 ![Importing an inventory with tower-manage](at_tm_stdout.png)
 
-Feel free to browse your inventory in Tower.  You should now notice that the inventory has been populated with Groups and that each of those groups contain hosts.
+Feel free to browse your inventory in Tower.  You should now notice that the inventory has been populated with Hosts and that each of those hosts Belong to a Group.
 
 ![Inventory with Groups](at_inv_group.png)
 
