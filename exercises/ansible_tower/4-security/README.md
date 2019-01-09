@@ -2,7 +2,7 @@
 
 In this exercise, we are going to use Red Hat Ansible Tower to run a Defense Information Systems Agency Security Technical Implementation Guide (DISA STIG) evaluation of our environment. This will allow you to ensure certain security requirements are met in your applications. You can view the role details at the following URL.
 
-      -http://galaxy.ansible.com/redhatofficial/rhel7_disa_stig
+      http://galaxy.ansible.com/redhatofficial/rhel7_disa_stig
 
 ## Download the role to Ansible roles directory
 
