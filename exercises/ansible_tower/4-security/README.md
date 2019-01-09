@@ -93,7 +93,7 @@ Select SAVE ![Save Button](at_save.png) to store your new template, and we are r
 
 ### Step 10:
 
-Click the rocketship icon ![Launch Button](RocketshipIcon.png) next to the STIG Job Template entry to launch the job.
+Click the rocketship icon ![Launch Button](at_launch_icon.png) next to the STIG Job Template entry to launch the job.
 
 ## Observe the Scanning Process and View Reports
 
