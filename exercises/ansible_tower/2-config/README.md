@@ -161,7 +161,7 @@ Feel free to browse your inventory in Tower.  You should now notice that the inv
 
 ### End Result
 
-At this point, we are doing with our basic configuration of Ansible Tower.  In exercise 2.2, we will be soley focused on creating and running a job template so you can see Tower in action.
+At this point, we are doing with our basic configuration of Ansible Tower.  In exercise 3, we will be soley focused on creating and running a job template so you can see Tower in action.
 
 ---
 
