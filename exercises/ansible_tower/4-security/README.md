@@ -1,10 +1,10 @@
-# **Exercise 4 - Using Ansible to Implement Security**
+# Exercise 4 - Using Ansible to Implement Security
 
 In this exercise, we are going to use Red Hat Ansible Tower to run a DISA STIG evaluation of our environment.
 
       -DISA STIG controls: http://galaxy.ansible.com/redhatofficial/rhel7_disa_stig
 
-### **Step 1: Download the role Ansible roles directory**
+### Step 1: Download the role Ansible roles directory
 
 In your shell in a box window, type the following:
 sudo ansible-galaxy install redhatofficial.rhel7_disa_stig -p /etc/ansible/roles
@@ -16,18 +16,18 @@ The image below illustrates that the role has been downloaded to your system-wid
 ![CLI Role Install Output](Installoutput.png)
 
 
-### **Step 2: Select Projects**
+### Step 2: Select Projects
 
 In the Ansible Tower UI click on the projects tab
 
 ![Add Project](proj_sidebar.png)
 
 
-### **Step 3: Click downloaded**
+### Step 3: Click downloaded
 
 Select ADD ![Add button](at_add.png)
 
-### **Step 4: Complete the Project Form**
+### Step 4: Complete the Project Form
 
 Complete the form using the following entries
 
@@ -44,24 +44,24 @@ SCM UPDATE OPTIONS | [X] Clean <br /> [X] Delete on Update <br /> [X] Update on 
 
 ![STIG Project Details](ProjectDetail.png)
 
-### **Step 5: Save**
+### Step 5: Save
 
 Select SAVE ![Save Button](at_save.png)
 
-### **Step 6: Select Template Tab**
+### Step 6: Select Template Tab
 
 In your Tower UI click Templates from the sidebar
 
 ![Add Template](temp_sidebar.png)
 
-### **Step 7: Add the Job Template**
+### Step 7: Add the Job Template
 
 Select ADD ![Add Button](at_add.png) and select "Job Template"
 
 ![Job Template Add](JobTemplateAdd.png)
 
 
-### **Step 8: Complete the Job Template Form**
+### Step 8: Complete the Job Template Form
 
 Complete the form using the following entries. Note that the PLAYBOOK field should offer main.yml as an option when clicked.
 
@@ -79,7 +79,7 @@ OPTIONS | [X] Enable Privilege Escalation
 
 ![STIG Job Template](JobTemplate.png)
 
-### **Step 9: Save the Template and Run it**
+### Step 9: Save the Template and Run it
 
 Select SAVE ![Save Button](at_save.png) to store your new template, and we are ready to run it.
 
@@ -89,7 +89,7 @@ View what the job looks like after executing.
 
 ![Job Output Details](FinishedJob.png)
 
-### **Step 10: Observe the Scanning Process and View Reports.**
+### Step 10: Observe the Scanning Process and View Reports.
 
 Once the check is complete, you can open a new tab in your web browser, and navigate to the following URL. http://IP_of_any_web_node/scap 
 
