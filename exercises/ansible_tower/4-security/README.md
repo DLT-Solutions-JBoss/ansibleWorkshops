@@ -4,7 +4,10 @@ In this exercise, we are going to use Red Hat Ansible Tower to run a Defense Inf
 
       -http://galaxy.ansible.com/redhatofficial/rhel7_disa_stig
 
-### Step 1: Download the role Ansible roles directory
+## Download the role to Ansible roles directory
+
+
+### Step 1:
 
 In your shell in a box window, type the following:
 sudo ansible-galaxy install redhatofficial.rhel7_disa_stig -p /etc/ansible/roles
@@ -15,19 +18,20 @@ The image below illustrates that the role has been downloaded to your system-wid
 
 ![CLI Role Install Output](Installoutput.png)
 
+## Create the Project
 
-### Step 2: Select Projects
+### Step 2: 
 
 In the Ansible Tower UI click on the projects tab
 
 ![Add Project](proj_sidebar.png)
 
 
-### Step 3: Click downloaded
+### Step 3: 
 
 Select ADD ![Add button](at_add.png)
 
-### Step 4: Complete the Project Form
+### Step 4: 
 
 Complete the form using the following entries
 
@@ -44,24 +48,26 @@ SCM UPDATE OPTIONS | [X] Clean <br /> [X] Delete on Update <br /> [X] Update on 
 
 ![STIG Project Details](ProjectDetail.png)
 
-### Step 5: Save
+### Step 5: 
 
 Select SAVE ![Save Button](at_save.png)
 
-### Step 6: Select Template Tab
+## Create the Job Template
+
+### Step 6: 
 
 In your Tower UI click Templates from the sidebar
 
 ![Add Template](temp_sidebar.png)
 
-### Step 7: Add the Job Template
+### Step 7: 
 
 Select ADD ![Add Button](at_add.png) and select "Job Template"
 
 ![Job Template Add](JobTemplateAdd.png)
 
 
-### Step 8: Complete the Job Template Form
+### Step 8: 
 
 Complete the form using the following entries. Note that the PLAYBOOK field should offer main.yml as an option when clicked.
 
@@ -79,24 +85,33 @@ OPTIONS | [X] Enable Privilege Escalation
 
 ![STIG Job Template](JobTemplate.png)
 
-### Step 9: Save the Template and Run it
+### Step 9: 
 
 Select SAVE ![Save Button](at_save.png) to store your new template, and we are ready to run it.
 
+## Run the Job Template
+
+### Step 10:
+
 Click the rocketship icon ![Launch Button](RocketshipIcon.png) next to the STIG Job Template entry to launch the job.
 
-View what the job looks like after executing.
+## Observe the Scanning Process and View Reports
+
+### Step 11:
+
+View what the job looks like after executing
 
 ![Job Output Details](FinishedJob.png)
 
-### Step 10: Observe the Scanning Process and View Reports.
+### Step 12:
 
 Once the check is complete, you can open a new tab in your web browser, and navigate to the following URL.
 ``` bash
 http://<IP_of_any_web_node>/scap 
 ```
+### Step 13:
 
-Click the link called scan-xccdf-report to review the SCAP report that was generated. And review the report.
+Click the link called scan-xccdf-report to review the SCAP report that was generated. And explore the information available in the report.
 
 ![SCAP Landing](SCAPLanding.png)
 
