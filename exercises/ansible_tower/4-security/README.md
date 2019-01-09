@@ -91,7 +91,7 @@ View what the job looks like after executing.
 
 ### **Step 10: Observe the Scanning Process and View Reports.**
 
-Once the check is complete, you can open a new tab in your web browser, and navigate to the following URL. http://IP_of_any_web_node/scap
+Once the check is complete, you can open a new tab in your web browser, and navigate to the following URL. http://X.X.X.X/scap Where X.X.X.X is the IP of any web server node. 
 
 Click the link called scan-xccdf-report to review the SCAP report that was generated. And review the report.
 
