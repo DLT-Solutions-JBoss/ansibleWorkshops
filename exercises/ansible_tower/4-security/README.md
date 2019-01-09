@@ -6,7 +6,7 @@ In this exercise, we are going to use Red Hat Ansible Tower to run a DISA STIG e
 
 ### **Step 1: Download the role Ansible roles directory**
 
-In your shell window, type the following:
+In your shell in a box window, type the following:
 sudo ansible-galaxy install redhatofficial.rhel7_disa_stig -p /etc/ansible/roles
 
 ![CLI Galaxy Role Install](installgalaxyrole.png)
