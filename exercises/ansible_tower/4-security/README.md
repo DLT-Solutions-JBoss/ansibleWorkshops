@@ -1,8 +1,8 @@
 # Exercise 4 - Using Ansible to Implement Security
 
-In this exercise, we are going to use Red Hat Ansible Tower to run a DISA STIG evaluation of our environment.
+In this exercise, we are going to use Red Hat Ansible Tower to run a DISA STIG evaluation of our environment. You can view the module details at the following URL.
 
-      -DISA STIG controls: http://galaxy.ansible.com/redhatofficial/rhel7_disa_stig
+      -http://galaxy.ansible.com/redhatofficial/rhel7_disa_stig
 
 ### Step 1: Download the role Ansible roles directory
 
