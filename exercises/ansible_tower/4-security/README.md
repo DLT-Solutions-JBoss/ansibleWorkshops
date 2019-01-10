@@ -95,6 +95,9 @@ Select SAVE ![Save Button](at_save.png) to store your new template, and we are r
 
 At the bottom of the screen you will see the new template you just created. Click the rocketship icon ![Launch Button](at_launch_icon.png) next to the STIG Job Template entry to launch the job.
 
+**NOTE**
+Step 10 will take approximately 10 minutes to complete the scan and generate the report.
+
 ## Observe the Scanning Process and View Reports
 
 ### Step 11:
