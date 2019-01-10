@@ -9,10 +9,10 @@ In this exercise, we are going to use Red Hat Ansible Tower to run a Defense Inf
 
 ### Step 1:
 
-In your shell in a box window, type the following:
+In your shell in a box window, type the following to download the new role to your directory:
+``` bash
 sudo ansible-galaxy install redhatofficial.rhel7_disa_stig -p /etc/ansible/roles
-
-![CLI Galaxy Role Install](installgalaxyrole.png)
+```
 
 The image below illustrates that the role has been downloaded to your system-wide Ansible roles directory, /etc/ansible/roles
 
