@@ -46,17 +46,17 @@ synchronizing with inventory sources, and importing project content from a versi
 
 There are many [types of credentials](http://docs.ansible.com/ansible-tower/latest/html/userguide/credentials.html#credential-types) including machine, network, and various cloud providers.  In this workshop, we are using a *machine* credential.
 
-### Step 1:
+### Step 6:
 
 Select CREDENTIALS 
 
 ![Credential Sidebar](cred_sidebar.png)
 
-### Step 2:
+### Step 7:
 
 Click on ADD ![Add button](at_add.png)
 
-### Step 3:
+### Step 8:
 
 Complete the credential form using the following entries:
 
@@ -72,7 +72,7 @@ PRIVILEGE ESCALATION|Sudo (This is the default)
 
 ![Adding a Credential](at_cred_detail.png)
 
-### Step 4:
+### Step 9:
 
 Select SAVE ![Save button](at_save.png)
 
@@ -80,17 +80,17 @@ Select SAVE ![Save button](at_save.png)
 
 A Project is a logical collection of Ansible playbooks, represented in Tower. You can manage playbooks and playbook directories by either placing them manually under the Project Base Path on your Tower server, or by placing your playbooks into a source code management (SCM) system supported by Tower, including Git, Subversion, and Mercurial.
 
-### Step 1:
+### Step 10:
 
 Click on PROJECTS
 
 ![Add Project](proj_sidebar.png)
 
-### Step 2:
+### Step 11:
 
 Select ADD ![Add button](at_add.png)
 
-### Step 3:
+### Step 12:
 
 Complete the form using the following entries
 
@@ -108,7 +108,7 @@ SCM UPDATE OPTIONS| [x] Clean <br />  [x] Delete on Update<br />  [x] Update Rev
 
 ![Defining a Project](at_project_detail.png)
 
-### Step 4:
+### Step 13:
 
 Select SAVE ![Save button](at_save.png)
 
@@ -119,17 +119,17 @@ An inventory is a collection of hosts against which jobs may be launched. Invent
 An Inventory can also be imported into Tower using the `tower-manage` command and this is how we are going to add an inventory for this workshop.
 
 
-### Step 1:
+### Step 14:
 
 Click on INVENTORIES
 
 ![Adding Inventory](inv_sidebar.png)
 
-### Step 2:
+### Step 15:
 
 Select ADD ![Add button](at_add.png)
 
-### Step 3:
+### Step 16:
 
 Complete the form using the following entries
 
@@ -140,11 +140,11 @@ ORGANIZATION|Default
 
 ![Create an Inventory](at_inv_create.png)
 
-### Step 4:
+### Step 17:
 
 Select SAVE ![Save button](at_save.png)
 
-### Step 5:
+### Step 18:
 
 Use the `tower-manage` command to import an existing inventory.  (_Be sure to replace <username> with your actual username_)
 ```
