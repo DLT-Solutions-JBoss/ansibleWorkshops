@@ -45,7 +45,7 @@ Once you do, you will be redirected to a job screen which is refreshing in realt
 showing you the status of the job.
 
 
-### Step 1:
+### Step 5:
 
 Select TEMPLATES
 
@@ -57,11 +57,11 @@ Alternatively, if you haven't navigated away from the job templates creation pag
 
 ---
 
-### Step 2:
+### Step 6:
 
 Click on the rocketship icon ![Launch button](at_launch_icon.png) for the *Apache Basic Job Template*
 
-### Step 3:
+### Step 7:
 
 Sit back, watch the magic happen!
 
@@ -77,7 +77,7 @@ To the right, you can view standard output; the same way you could if you were r
 
 ![Job Standard Output](at_job_stdout.png)
 
-### Step 4:
+### Step 8:
 
 Once your job is sucessful, navigate to your new website
 
