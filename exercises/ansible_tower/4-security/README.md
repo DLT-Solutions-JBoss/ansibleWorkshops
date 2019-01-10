@@ -42,7 +42,7 @@ ORGANIZATION | Default
 SCM TYPE | Git
 SCM URL | https://github.com/ajacocks/rhel7_disa_stig.git
 SCM BRANCH |
-SCM UPDATE OPTIONS | [X] Clean <br /> [X] Delete on Update <br /> [X] Update on Launch
+SCM UPDATE OPTIONS | [X] Clean <br /> [X] Delete on Update <br /> [X] Update Revision on Launch
 
 
 
