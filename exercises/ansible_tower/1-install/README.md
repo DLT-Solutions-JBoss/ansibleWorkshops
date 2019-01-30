@@ -28,7 +28,7 @@ That curl option is the letter O, and not the number 0.
 Untar and unzip the package file
 
 ```bash
-tar xvfz /ansible-tower-setup-3.3.1-1.tar.gz
+tar xvfz ansible-tower-setup-3.3.1-1.tar.gz
 ```
 
 ### Step 4:
